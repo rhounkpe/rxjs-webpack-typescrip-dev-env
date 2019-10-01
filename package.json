@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development",
+    "start:dev": "webpack-dev-server --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,10 +15,10 @@
     "rxjs-compat": "^6.5.3",
     "ts-loader": "^6.1.2",
     "typescript": "^3.6.3",
-    "webpack": "^4.41.0",
-    "webpack-dev-server": "^3.8.1"
+    "webpack": "^4.41.0"
   },
   "devDependencies": {
-    "webpack-cli": "^3.3.9"
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
   }
 }
